@@ -52,8 +52,6 @@
 </a>
 
 ### 관리자 로그인 <a href=""> 기능소개 WIKI로 이동</a>
-- 일 별 매출 그래프
-- 카테고리별 조회 수
 <a href=""> 
  <img src="https://file.notion.so/f/s/5bdbd48b-c1b0-425b-ba88-b052dc0e5964/Untitled.png?id=d011bf3c-97be-4b3a-b99f-07faa73bf3d8&table=block&spaceId=922ca3ea-469b-45a5-acae-07669690df71&expirationTimestamp=1690891200000&signature=yRReC9JTp9bfAUz-dPJcrP9q3e9Jj5GMUl8xGTeVp8s&downloadName=Untitled.png" width="500">
 </a>
