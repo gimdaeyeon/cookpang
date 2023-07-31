@@ -28,14 +28,14 @@
 
 </details>
 
- ## 🖥️ Tools
+ ## Tools
 - **Java**
 - **JSP**
 - **Eclipse**
 - **Mybatis**
 - **MySql**
 
-## 🗂️ 나의 작업
+## 나의 작업
 ### 관리자 페이지 <a href=""> 기능소개 WIKI로 이동</a>
 - 회원 관리
 - 게시글 관리
