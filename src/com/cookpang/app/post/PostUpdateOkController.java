@@ -29,12 +29,9 @@ public class PostUpdateOkController implements Execute {
 	      PostFileDTO postFileDTO = new PostFileDTO();
 	      int postNumber = 0;
 	      
-	      System.out.println("writeOk컨트롤러 들어왔다!!!");
-	      System.out.println(req.getParameter("boardTitle"));
 	      
 	      String uploadPath = req.getSession().getServletContext().getRealPath("/") + "upload/";
 	      int fileSize = 1024 * 1024 ; //5MB
-	      System.out.println(uploadPath);
 	      
 //	      하나의 input에 multiple 속성을 사용하여 여러 파일을 전달하는 경우 아래 코드를 사용한다.
 //	      =======================================

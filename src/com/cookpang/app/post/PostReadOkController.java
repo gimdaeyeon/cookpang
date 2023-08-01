@@ -37,8 +37,6 @@ public class PostReadOkController implements Execute {
 		int userNumber = (int)session.getAttribute("userNumber");
 		
 		
-//		임시 게시물 번호 나중에 연결되면 바로 밑은 삭제, 위의 주석은 해제
-//		int postNumber = 8;
 		
 		PostDAO postDAO = new PostDAO();
 		RecipeCategoryDAO recipeCategoryDAO = new RecipeCategoryDAO();
@@ -70,7 +68,6 @@ public class PostReadOkController implements Execute {
 		likeStatus = postLikeDAO.checkLike(postLikeDTO) ==null ? false : true;
 		saveStatus = postSaveDAO.checkSave(postSaveDTO) ==null ? false : true;
 		
-//		postReadVO.setFiles(files);
 		
 		System.out.println(postReadVO);
 		req.setAttribute("post", postReadVO);
@@ -79,7 +76,6 @@ public class PostReadOkController implements Execute {
 		req.setAttribute("saveStatus", saveStatus);
 		req.setAttribute("ingredients", ingredients);
 		req.setAttribute("postFileList", postFileList);
-//		req.setAttribute("commentList", commentList);
 		
 		req.getRequestDispatcher("/app/post/postRead.jsp").forward(req, resp);
 		

@@ -30,10 +30,19 @@ public class PostDeleteOkController implements Execute {
 		PostDAO postDAO = new PostDAO();
 		RecipeCategoryDAO recipeCategoryDAO = new RecipeCategoryDAO();
 		RecipeIngredientDAO recipeIngredientDAO = new RecipeIngredientDAO();
-		
+		String uploadPath = req.getSession().getServletContext().getRealPath("/")+"upload/";
 		req.setCharacterEncoding("utf-8");
 		
+		
+		
 		int postNumber = Integer.valueOf(req.getParameter("postNumber"));
+		
+		List<PostFileDTO> files = postFileDAO.select(postNumber);
+		
+		files.stream().map(PostFileDTO::getPostFileSystemName)
+		.map(name-> new File(uploadPath, name))
+		.filter(File::exists)
+		.forEach(File::delete);
 		
 			postSaveDAO.deleteByPostNumber(postNumber);
 			postLikeDAO.deleteByPostNumber(postNumber);

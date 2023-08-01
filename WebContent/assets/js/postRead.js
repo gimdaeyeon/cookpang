@@ -1,7 +1,3 @@
-/**
- * 
- */
-
 $(document).ready(function() {
 	const $ingredientBtn = $('.ingredient-btn');
 	const $recipeBtn = $('.recipe-btn');
