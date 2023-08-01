@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.cookpang.app.manager;
 
 import java.io.IOException;
@@ -21,10 +18,6 @@ import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 
-/**
- * @author gimdaeyeon
- *
- */
 public class ManagerPostListOkController implements Execute {
 
 	@Override

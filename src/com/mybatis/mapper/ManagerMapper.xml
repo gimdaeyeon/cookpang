@@ -142,16 +142,16 @@
 	
 	<select id="getTotalRevenue" resultType="PaymentVO">
 		<!-- 최근 7일간의 일매출 쿼리 -->
-		select date(payment_date) as payment_date, sum(payment_amount) as total_revenue
+<!-- 		select date(payment_date) as payment_date, sum(payment_amount) as total_revenue
 		from tbl_payment 
 		where payment_date >= date(now()) - interval 7 day
 		group by date(payment_date)
-		
+ -->		
 		<!-- 최근 6개월간의 월별 매출액 쿼리 -->
-		<!-- select month(payment_date) as payment_date, sum(payment_amount) as total_revenue
+		select month(payment_date) as payment_date, sum(payment_amount) as total_revenue
 		from tbl_payment
 		where payment_date >= date(now()) - interval 6 month
-		group by month(payment_date) -->
+		group by month(payment_date)
 	</select>
 	
 

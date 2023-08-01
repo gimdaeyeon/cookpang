@@ -180,15 +180,6 @@ $("#user-serch").on("keyup", function(event) {
 });
 
 
-
-
-
-
-
-
-
-
-
 // 게시물 리스트부분
 let postSearchMode = false;
 
@@ -504,16 +495,6 @@ function showOrderProducts(target) {
 	}else{
 	$('.order-itemList').remove();
 	}
-	
-	/*if(nextProductsRow.prev('.order-itemList').length==0){
-		
-	}else{
-		nextProductsRow.prevAll('.order-itemList').remove();
-		productsRow.nextUntil(nextProductsRow).filter(".order-itemList").remove();
-	}*/
-
-
-
 }
 
 
@@ -551,7 +532,6 @@ function getOrderItems(result,productsRow) {
 			
 	})
 	
-	//productsRow.closest('tr').next().text('');
 	productsRow.closest('tr').next().after(text);
 	
 

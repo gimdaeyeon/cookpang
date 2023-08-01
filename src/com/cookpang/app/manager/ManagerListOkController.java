@@ -105,9 +105,6 @@ public class ManagerListOkController implements Execute {
 		ManagerVO managerVO = managerDAO.getProfileInfo(managerNumber);
 		ProfileImageDTO profileImage = new ProfileImageDAO().selectImage(managerNumber);
 		
-		System.out.println(posts);
-		
-		
 		req.setAttribute("profileImage", profileImage);
 		req.setAttribute("manager", managerVO);
 		req.setAttribute("userList", users);

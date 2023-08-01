@@ -25,9 +25,7 @@ public class ManagerOrderListOkController implements Execute {
 		
 		int orderTotal = managerDAO.getOrderTotal();
 		
-		System.out.println("여기인가?");
 		String orderTemp = req.getParameter("orderPage");
-		System.out.println(orderTemp);
 		
 		int orderPage = orderTemp == null ? 1 : Integer.valueOf(orderTemp);
 		
@@ -92,7 +90,6 @@ public class ManagerOrderListOkController implements Execute {
 		resp.setCharacterEncoding("utf-8");
 		PrintWriter out = resp.getWriter();
 		out.print(orderResult.toString());
-		System.out.println(orderResult.toString());
 		out.close();
 		
 		
