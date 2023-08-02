@@ -75,7 +75,7 @@
  <img src="https://postfiles.pstatic.net/MjAyMzA4MDFfMTQ2/MDAxNjkwODgxODYxMDgx.nJyfvTL9wVL8FDJyAYrsWrWlxo6tvhkNcJKuwSQmzBkg.HcaHS9144bLIlViqX9FfDZaW6nQfuYdISQcvCuf4JsYg.GIF.rlaeodus1306/read.gif?type=w580" width="500">
 </a>
 
-### 게시글 작성(front) <a href="https://github.com/gimdaeyeon/cookpang/wiki/%EA%B2%8C%EC%8B%9C%EA%B8%80-%EC%9E%91%EC%84%B1(front)"> 기능소개 WIKI로 이동</a>
+### 게시글 작성(front) <a href="https://github.com/gimdaeyeon/cookpang/blob/main/WebContent/assets/js/postWrite.js"> 관련코드 이동(JavaScript)</a>
 - 사진 미리보기 슬라이드
 - +,- 버튼으로 요소 추가
 - 카테고리(체크박스 선택상태에 따라 스타일 변경)
