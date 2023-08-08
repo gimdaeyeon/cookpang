@@ -80,7 +80,6 @@ public class MainOkController implements Execute {
 //		rank
 		List<PostVO> rankTotal = mainDAO.rankTotal();
 //		System.out.println(rankTotal);
-		System.out.println("ㅗㅜㅑ");
 		System.out.println(rankTotal);
 		req.setAttribute("rankTotal", rankTotal);
 //		rank
