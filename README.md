@@ -58,13 +58,15 @@
 - 카테고리별 조회 수
   
 <a href="https://github.com/gimdaeyeon/cookpang/wiki/%EA%B4%80%EB%A6%AC%EC%9E%90-%EC%B0%A8%ED%8A%B8"> 
- <img src="https://file.notion.so/f/s/e46df706-cb40-4cd2-8292-06189f67a5ad/Untitled.png?id=dc45e00c-cb99-4720-8656-b5faef92060d&table=block&spaceId=922ca3ea-469b-45a5-acae-07669690df71&expirationTimestamp=1691575200000&signature=TwEEu7ecJ_C5b2eZIb6dHckIKTvuhkSWUwL29cLZq0g&downloadName=Untitled.png" width="500">
+ <img src="https://postfiles.pstatic.net/MjAyMzA4MTJfMTgz/MDAxNjkxODUxOTg3OTUx.ttds5LX8NDyAdRn2O1n2jds0dvRdynb2-Z1GixdSLDkg.Bvn3rUUQsvNF7eMRwR4enKRo-5Hu50kvrkvr88qr0TYg.PNG.rlaeodus1306/Untitled.png?type=w580" width="500">
 </a>
+
+![관리자페이지소개](https://postfiles.pstatic.net/MjAyMzA4MTJfMzgg/MDAxNjkxODUyMDgzMDQ5.jkFWgWU2xyr8KZxxRuaejlUReMXug54MlWKD33k4Q_Yg.TwcVHpsAM41q9reITzgfXjpXA2wCym6diKo0wlofp-kg.PNG.rlaeodus1306/Untitled_(1).png?type=w580)
 
 ### 관리자 로그인 <a href="https://github.com/gimdaeyeon/cookpang/tree/main"> 기능소개 WIKI로 이동</a>
 
 <a href="https://github.com/gimdaeyeon/cookpang/tree/main"> 
- <img src="https://file.notion.so/f/s/5bdbd48b-c1b0-425b-ba88-b052dc0e5964/Untitled.png?id=d011bf3c-97be-4b3a-b99f-07faa73bf3d8&table=block&spaceId=922ca3ea-469b-45a5-acae-07669690df71&expirationTimestamp=1691575200000&signature=Kbpj9z2DJqcl4VXXt77NNjktyB0ZUV9TGF29Xuob5og&downloadName=Untitled.png" width="500">
+ <img src="https://postfiles.pstatic.net/MjAyMzA4MTJfMTE1/MDAxNjkxODUyMTA0MTg1.5nOm8SF0NxmP3W9VIDrWQIpfnklskAhonVJh2Fgvzrcg.RkVSgcd4Hm5aBzgChtcdH1sN4zHqBcqqBG7Sm40mJPgg.PNG.rlaeodus1306/Untitled_(2).png?type=w580" width="500">
 </a>
  
 ### 게시글 보기 <a href="https://github.com/gimdaeyeon/cookpang/wiki/%EA%B2%8C%EC%8B%9C%EA%B8%80-%EB%B3%B4%EA%B8%B0"> 기능소개 WIKI로 이동</a>
