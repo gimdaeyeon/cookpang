@@ -89,6 +89,3 @@
 <img src="https://postfiles.pstatic.net/MjAyMzA4MDFfMTIw/MDAxNjkwODc3OTI1NjMy.OHXz84ZsYf9aBOMb9iphWwoZK65Uartbknh4b9SGEC4g.qNxq3BIbM_dr9cRwct8VLzlFT4EwOIlFrC1uDnv1lgMg.GIF.rlaeodus1306/cookpang3.gif?type=w580" width="500">
 </a>
 
-
-
-
